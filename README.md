@@ -1,4 +1,4 @@
-# Accordion-Menu-By-React
+# first
 
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
@@ -8,11 +8,11 @@
 
 - [Demo Project](https://pouria-farahani-developer.github.io/Accordion-Menu-By-React/)
 
-- Developed by pouria farahani
+- Developed by reza ojaghi
 
-- Created - 2022-11-26
+- Created - 2023-09-30
 
-- Technologies Used - Html , css , js , React.js
+- Technologies Used - Html , css , sass
 
 - Hooks Used : useState 
 
