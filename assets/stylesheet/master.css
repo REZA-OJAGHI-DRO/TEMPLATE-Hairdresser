@@ -1,0 +1,366 @@
+.n {
+  width: 20%;
+  height: 100vh;
+  background-color: #111;
+  padding: 10vw 2vw;
+  position: fixed;
+  left: 0;
+}
+.n > figure {
+  height: 6vw;
+}
+.n > ul > li:nth-of-type(1) > a {
+  color: white;
+  background-color: #bb9d52;
+}
+.n > ul li a {
+  color: dimgray;
+  text-transform: capitalize;
+  font-size: 1.5vw;
+  padding: 0.5vw;
+}
+.n > ul li a:hover {
+  color: white;
+  background-color: #bb9d52;
+}
+
+main {
+  justify-content: end;
+}
+
+.head {
+  height: 100vh;
+  background-image: url(../img/barber_slider.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: 20vw;
+  color: white;
+}
+.head > section {
+  background-color: rgba(0, 0, 0, 0.5);
+  align-content: center;
+}
+.head > section * {
+  margin-bottom: 2vw;
+}
+.head > section > h1 {
+  font-size: 3vw;
+  font-weight: 100;
+}
+.head > section > h1 > strong {
+  font-size: 4vw;
+  font-weight: bold;
+}
+.head > section > p {
+  font-size: 1.5vw;
+}
+.head > section > a {
+  background-color: black;
+  color: white;
+  font-size: 1.5vw;
+  font-family: serif;
+  padding: 1vw 5vw;
+}
+.head > section > a:hover {
+  outline: 0.3vw solid #bb9d52;
+  outline-offset: 0.4vw;
+  background-color: #bb9d52;
+}
+
+.s1 article a {
+  padding: 4vw;
+  background-color: black;
+}
+.s1 article a:hover {
+  background-color: #bb9d52;
+}
+.s1 article a h3 {
+  color: white;
+  font-size: 1.5vw;
+  text-transform: capitalize;
+}
+
+.s2 article {
+  padding: 3vw 0vw;
+}
+.s2 article h4 {
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+}
+.s2 article h3 {
+  margin-bottom: 2vw;
+  font-size: 3vw;
+  font-family: serif;
+}
+.s2 article p {
+  margin-bottom: 2vw;
+  color: dimgray;
+}
+.s2 article > p:nth-of-type(1) {
+  font-size: 1.5vw;
+  font-style: italic;
+  font-family: serif;
+}
+.s2 article > p:nth-of-type(2) {
+  font-size: 1.2vw;
+}
+.s2 article a {
+  color: white;
+  font-size: 2vw;
+  font-family: serif;
+  background-color: black;
+  padding: 0.5vw 3vw;
+  margin-bottom: 3vw;
+}
+.s2 article a:hover {
+  outline: 0.3vw solid #bb9d52;
+  outline-offset: 0.2vw;
+  background-color: #bb9d52;
+}
+.s2 article div {
+  width: 81%;
+  border-bottom: 2px dashed rgb(222, 218, 218);
+}
+
+.s3 article {
+  padding: 2vw 0;
+}
+.s3 article ul {
+  width: 40%;
+  justify-content: space-evenly;
+  margin-bottom: 2vw;
+}
+.s3 article ul > li:nth-of-type(1) a {
+  color: white;
+  background-color: #bb9d52;
+}
+.s3 article ul li a {
+  color: #111;
+  text-transform: capitalize;
+  font-size: 1.5vw;
+  padding: 0.5vw 1vw;
+  font-family: serif;
+  font-weight: bold;
+}
+.s3 article ul li a:hover {
+  background-color: black;
+  color: white;
+}
+.s3 article p {
+  width: 90%;
+  font-size: 1.05vw;
+  margin-bottom: 2vw;
+  color: dimgray;
+}
+.s3 article div {
+  margin-top: 2vw;
+  width: 81%;
+  border-bottom: 2px dashed rgb(222, 218, 218);
+}
+
+.s4 {
+  height: 45vw;
+}
+.s4 article {
+  justify-content: space-evenly;
+  padding: 5vw 0 7vw 0;
+}
+.s4 article figure {
+  width: 30%;
+}
+.s4 article figure:hover > img {
+  filter: grayscale(100%);
+  transform: scale(1.05);
+}
+.s4 article figure img {
+  width: 100%;
+  height: 22vw;
+}
+.s4 article figure:hover > div {
+  width: 100%;
+  left: 0%;
+}
+.s4 article figure > div {
+  width: 0%;
+  height: 22vw;
+  background-color: rgba(0, 0, 0, 0.4745098039);
+  left: 50%;
+}
+.s4 article figure:hover > a {
+  opacity: 0.7;
+}
+.s4 article figure a {
+  background-color: rgb(151, 147, 147);
+  font-size: 2vw;
+  left: calc(50% - 2vw);
+  top: 9vw;
+  padding: 0.5vw;
+  opacity: 0;
+}
+.s4 article figure figcaption {
+  top: 22vw;
+}
+.s4 article figure figcaption h4 {
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin: 1vw;
+}
+.s4 article figure figcaption p {
+  font-size: 1vw;
+  font-style: italic;
+  font-family: serif;
+}
+
+.s5 article {
+  background-color: #f6f4f4;
+  padding: 4vw 0;
+}
+.s5 article:nth-of-type(1) {
+  padding: 5vw 0;
+}
+.s5 article:nth-of-type(1) > p {
+  font-size: 1.5vw;
+  color: dimgray;
+  font-family: serif;
+  margin-bottom: 2vw;
+}
+.s5 article:nth-of-type(1) > p:nth-of-type(2) {
+  font-style: italic;
+}
+.s5 article:nth-of-type(1) > h3 {
+  font-size: 3vw;
+  margin-bottom: 2vw;
+  font-weight: 900;
+}
+.s5 article:nth-of-type(2) {
+  justify-content: space-evenly;
+}
+.s5 article:nth-of-type(2) figure {
+  width: 30%;
+  height: 45vw;
+  background-color: white;
+}
+.s5 article:nth-of-type(2) figure:hover > img {
+  filter: blur(10px);
+  outline: 0.3vw solid #bb9d52;
+  outline-offset: 0.2vw;
+}
+.s5 article:nth-of-type(2) figure:hover > img:nth-of-type(2) {
+  top: -0.5vw;
+  transform: rotateX(0deg);
+  transform: scale(1.02);
+  filter: blur(0px);
+  outline: 0px solid black;
+  outline-offset: 1vw;
+}
+.s5 article:nth-of-type(2) figure img {
+  filter: blur(0%);
+  height: 60%;
+  top: 0;
+  transition: 1s;
+  outline: 0.3vw solid #bb9d52;
+  outline-offset: 0.2vw;
+}
+.s5 article:nth-of-type(2) figure img:nth-of-type(2) {
+  top: 0;
+  height: 60%;
+  outline: 0vw solid #bb9d52;
+  outline-offset: 0.2vw;
+}
+.s5 article:nth-of-type(2) figure figcaption {
+  top: 60%;
+  padding: 2vw;
+}
+.s5 article:nth-of-type(2) figure figcaption h2 {
+  font-size: 2vw;
+  font-family: serif;
+  font-style: italic;
+  margin-bottom: 2vw;
+}
+.s5 article:nth-of-type(2) figure figcaption p {
+  font-size: 1.2vw;
+  margin-bottom: 1vw;
+  font-family: serif;
+}
+
+.f-s1 article {
+  padding: 5vw 13vw;
+  background-color: rgba(0, 0, 0, 0.509);
+  color: white;
+}
+.f-s1 article h4 {
+  font-size: 3vw;
+  margin-bottom: 2vw;
+}
+.f-s1 article p {
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+}
+.f-s1 article p:nth-of-type(1) {
+  font-family: serif;
+}
+.f-s1 article p:nth-of-type(2) {
+  font-family: serif;
+  font-style: italic;
+}
+
+footer {
+  background-image: url(../img/parallax_20.jpg);
+  background-size: cover;
+}
+
+.f-s2 {
+  background-color: rgba(0, 0, 0, 0.509);
+  padding-bottom: 5vw;
+}
+.f-s2 article {
+  width: 50%;
+  background-color: #bb9d52;
+  color: white;
+  padding: 3vw 0;
+}
+.f-s2 article:hover {
+  background-color: rgba(0, 0, 0, 0.523);
+  color: #bb9d52;
+}
+.f-s2 article h3 {
+  font-size: 2vw;
+  text-transform: uppercase;
+  margin-bottom: 1vw;
+}
+.f-s2 article p {
+  font-size: 2vw;
+  margin-bottom: 1vw;
+}
+.f-s2 article p span img {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+.f-s3 article {
+  background-color: black;
+}
+.f-s3 article ul {
+  width: 70%;
+  height: 10vw;
+  justify-content: space-evenly;
+}
+.f-s3 article ul li {
+  align-items: center;
+}
+.f-s3 article ul li a {
+  font-family: serif;
+  padding: 1vw;
+  font-size: 1.5vw;
+  color: dimgray;
+  text-transform: uppercase;
+}
+.f-s3 article ul li a:hover {
+  color: white;
+}
+.f-s3 article p {
+  color: dimgray;
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+}/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,228 @@
+@media only screen and (max-width:800px) {
+    .n {
+        width: 100%;
+        height:7vw;
+        background-color: #111;
+        padding: 0vw;
+        flex-wrap: nowrap;
+        justify-content: center;
+        z-index: 100;
+      }
+      .n > figure {
+        height: 0vw;
+        display: none;
+      }
+     
+      .n > ul li a {   
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 2vw;
+        padding: 0.5vw 2vw;
+        
+      }
+      .n>ul{
+        width: 100%;    
+        flex-wrap: nowrap;
+        justify-content: center;
+      }
+      .n>ul>li{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        
+      }
+      .n>ul>li>a{
+        width: auto;
+        align-items: center;
+      }
+      main {
+        justify-content: end;
+      }
+      
+      .head {
+        width: 100%;
+        height: 60vh;
+        background-position-x: 0vw;
+      }
+      
+      .head > section * {
+        margin-bottom: 5vw;
+      }
+      .head > section > h1 {
+        font-size: 3vw;
+      }
+      .head > section > h1 > strong {
+        font-size: 6vw;
+      }
+      .head > section > p {
+        font-size: 3vw;
+      }
+      .head > section > a {
+        font-size: 3vw;
+      }
+      .head > section > a:hover {
+        outline: 0.5vw solid #bb9d52;
+      }
+      .s1{
+        width: 100%;
+      }
+      .s1 article a h3 {
+        font-size: 2vw;
+      }
+      .s2{
+        width: 100%;
+      }
+      .s2 article {
+        padding: 3vw 3vw;
+      }
+      .s2 article h4 {
+        font-size: 3vw;
+      }
+      .s2 article h3 {
+        font-size: 6vw;
+      }
+      .s2 article > p:nth-of-type(1) {
+        font-size: 3vw;
+        text-align: center;
+      }
+      .s2 article > p:nth-of-type(2) {
+        font-size: 2.5vw;
+        text-align: center;
+      }
+      .s2 article a {
+        font-size: 4vw;
+      }
+      .s2 article a:hover {
+        outline: 0.5vw solid #bb9d52;
+      }
+
+      .s3{
+        width: 100%;
+      }
+      .s3 article ul {
+        width: 80%;
+        margin-bottom: 4vw;
+      }
+      .s3 article ul li a {
+        font-size: 3vw;
+      }
+      .s3 article p {
+        font-size: 3vw;
+        margin-bottom: 4vw;
+      }
+
+
+      .s4 {width: 100%;
+        height: 400vw;
+      }
+      .s4 article {
+        justify-content: space-evenly;
+        padding: 5vw 7vw;
+        height: 100%;
+      }
+      .s4 article figure {
+        width: 100%;
+       
+      }
+      .s4 article figure:hover > img {
+        transform: scale(1);
+      }
+      .s4 article figure img {
+        height: 100vw;
+      }
+ 
+      .s4 article figure > div {
+        height: 100vw;
+      }
+
+      .s4 article figure a { 
+        font-size: 10vw;
+        left: calc(50% - 5vw);
+        top: 45vw;
+      }
+      .s4 article figure figcaption {
+        top: 100vw;
+      }
+      .s4 article figure figcaption h4 {
+        font-size: 6vw;
+        margin: 3vw;
+      }
+      .s4 article figure figcaption p {
+        font-size: 3vw;
+      }
+      .s5{
+        width: 100%;
+      }
+      .s5 article {
+        background-color: #f6f4f4;
+        padding: 4vw 0;
+      }
+      .s5 article:nth-of-type(1) {
+        padding: 5vw 0;
+      }
+      .s5 article:nth-of-type(1) > p {
+        font-size: 4vw;
+      }
+      .s5 article:nth-of-type(1) > h3 {
+        font-size: 6vw;
+      }
+      .s5 article:nth-of-type(2) {
+        padding: 10vw;
+      }
+      .s5 article:nth-of-type(2) figure {
+        width: 100%;
+        height: 150vw;
+        margin-bottom: 7vw;
+      }
+      .s5 article:nth-of-type(2) figure img {
+        outline: 1vw solid #bb9d52;
+        outline-offset: 1vw;
+      }
+      .s5 article:nth-of-type(2) figure figcaption {
+        padding: 9vw;
+      }
+      .s5 article:nth-of-type(2) figure figcaption h2 {
+        font-size: 6vw;
+        margin-bottom: 5vw;
+      }
+      .s5 article:nth-of-type(2) figure figcaption p {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+
+      }
+      .f{
+        width: 100%;
+      }
+      .f-s1 article h4 {
+        font-size: 6vw;
+      }
+      .f-s1 article p {
+        font-size: 3vw;
+      }
+
+      .f-s2 article {
+        width: 80%;
+      }
+      .f-s2 article h3 {
+        font-size: 4vw;
+      }
+      .f-s2 article p {
+        font-size: 4vw;
+      }
+      .f-s2 article p span img {
+        width: 3vw;
+        height: 3vw;
+      }
+      
+
+      .f-s3 article ul {
+        width: 100%;
+      }
+      .f-s3 article ul li a {
+        font-size: 3vw;
+      }
+      .f-s3 article p {
+        font-size: 3vw;
+        margin-bottom: 3vw;
+      }
+}
